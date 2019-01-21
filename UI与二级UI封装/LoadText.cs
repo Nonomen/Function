@@ -27,7 +27,7 @@ public class LoadText : UIBase {
     void Start () {
         AddButtonListen("Button_N", OnClickN);
 
-        ChangeTextContent("Text_N", "Fuck!!");
+        ChangeTextContent("Text_N", "Click!!");
 
         AddDrag("Image_N", Drag);
 
